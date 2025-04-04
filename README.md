@@ -27,6 +27,8 @@ cd Password-Strength-Meter
 ## 3️⃣  Install Dependencies
 pip install -r requirements.txt
 
+## 4 TO RUN:
+python -m streamlit run password_strength_meter.py
 ### 📧 Contact
 For queries, reach out to:
 📧 hussainsamdani5686@gmail.com
