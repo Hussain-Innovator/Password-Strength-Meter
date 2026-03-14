@@ -59,6 +59,10 @@ Password-Strength-Meter/
 ├── requirements.txt      # Project dependencies
 └── README.md
 
+Live Demo
+A deployed version is available here:
+https://personal-library-manager-4jghrphmlbc3ceteacg46w.streamlit.app/
+
 Author
 Hussain
 hussainsamdani5686@gmail.com
