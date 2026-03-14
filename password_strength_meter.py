@@ -13,13 +13,13 @@ def check_password_strength(password):
         strength_score += 1
 
     # Check for Character Variety
-    if re.search(r"[a-z]", password):  # Lowercase
+    if re.search(r"[a-z]", password):  
         strength_score += 1
-    if re.search(r"[A-Z]", password):  # Uppercase
+    if re.search(r"[A-Z]", password):  
         strength_score += 1
-    if re.search(r"[0-9]", password):  # Numbers
+    if re.search(r"[0-9]", password):  
         strength_score += 1
-    if re.search(r"[!@#$%^&*(),.?\":{}|<>]", password):  # Special Characters
+    if re.search(r"[!@#$%^&*(),.?\":{}|<>]", password):  
         strength_score += 1
 
     # Check for common patterns
